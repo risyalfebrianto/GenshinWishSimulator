@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IObjectPoolingManager : MonoBehaviour
+namespace Assets.Risyal.ArkanaStudioTest.Core.ObjectPooling
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Menangani object pooling yang ada didalam game.
+    /// </summary>
+    public interface IObjectPoolingManager
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /// <summary>
+        /// Untuk mendapatkan object yang di pooling.
+        /// </summary>
+        /// <param name="parameters">
+        /// Parameter yang digunakan untuk mendapatkan object.
+        /// </param>
+        /// <returns>
+        /// Mengembalikan nilai berupa IPooledObject.
+        /// </returns>
+        IPooledObject Get(params object[] parameters);
     }
 }

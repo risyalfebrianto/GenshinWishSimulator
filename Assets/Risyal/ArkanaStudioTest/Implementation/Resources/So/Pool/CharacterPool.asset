@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9738df0741ab7441b686a22f1f87198, type: 3}
+  m_Name: CharacterPool
+  m_EditorClassIdentifier: 
+  <Pool>k__BackingField:
+  - id: Barbara
+    name: Barbara
+    template: {fileID: 11400000, guid: 0efec3cee3ebf4b43916d54e2eafd56f, type: 2}
+  - id: Bennett
+    name: Bennett
+    template: {fileID: 11400000, guid: ff5e540a59f2f654cb33b2edb2120e2d, type: 2}
+  - id: Childe
+    name: Childe
+    template: {fileID: 11400000, guid: 6a9188c2deefadb47a320cb6e81d2a82, type: 2}
+  - id: Kaeya
+    name: Kaeya
+    template: {fileID: 11400000, guid: a790c4fde8f4215469bd0ec8cb3ac60c, type: 2}
+  - id: Lisa
+    name: Lisa
+    template: {fileID: 11400000, guid: 7672ca81f144168419da67932715ab8b, type: 2}

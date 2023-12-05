@@ -1,18 +1,26 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class IPool : MonoBehaviour
+namespace Assets.Risyal.ArkanaStudioTest.Core.PoolSystem
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Menangani pool yang digunakan untuk menyimpan kumpulan dari object.
+    /// </summary>
+    public interface IPool<T>
     {
-        
-    }
+        /// <summary>
+        /// Kumpulan dari object yang disimpan pada pool.
+        /// </summary>
+        List<T> Pool { get; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /// <summary>
+        /// Untuk mendapatkan object yang ada didalam pool.
+        /// </summary>
+        /// <param name="id">
+        /// Id dari object yang ada didalam pool.
+        /// </param>
+        /// <returns>
+        /// Mengembalikan nilai berupa T.
+        /// </returns>
+        T Get(string id);
     }
 }

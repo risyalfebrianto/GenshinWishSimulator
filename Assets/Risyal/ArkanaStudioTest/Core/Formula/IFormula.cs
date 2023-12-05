@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IFormula : MonoBehaviour
+namespace Assets.Risyal.ArkanaStudioTest.Core.Formula
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Menangani formula untuk menghitung sesuatu pada game.
+    /// </summary>
+    public interface IFormula
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /// <summary>
+        /// Untuk menghitung formula.
+        /// </summary>
+        /// <param name="parameters">
+        /// Parameter yang digunakan untuk menghitung formula.
+        /// </param>
+        /// <returns>
+        /// Mengembalikan nilai berupa float.
+        /// </returns>
+        float Calculate(params object[] parameters);
     }
 }

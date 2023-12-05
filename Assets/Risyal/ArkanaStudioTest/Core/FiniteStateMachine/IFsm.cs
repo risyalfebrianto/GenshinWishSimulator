@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IFsm : MonoBehaviour
+namespace Assets.Risyal.ArkanaStudioTest.Core.FiniteStateMachine
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Menangani finite state machine yang ada pada suatu object.
+    /// </summary>
+    public interface IFsm
     {
-        
-    }
+        /// <summary>
+        /// State yang dimiliki oleh object pada saat ini.
+        /// </summary>
+        IState CurrentState { get; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /// <summary>
+        /// Untuk mengganti state.
+        /// </summary>
+        /// <param name="id">
+        /// Id dari state yang diganti.
+        /// </param>
+        void ChangeState(string id);
     }
 }

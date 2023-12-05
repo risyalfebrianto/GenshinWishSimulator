@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IState : MonoBehaviour
+namespace Assets.Risyal.ArkanaStudioTest.Core.FiniteStateMachine
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Menangani kondisi dari suatu object saat ini.
+    /// </summary>
+    public interface IState
     {
-        
-    }
+        /// <summary>
+        /// Id yang dimiliki oleh state.
+        /// </summary>
+        string Id { get; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /// <summary>
+        /// Method yang dipanggil ketika state di inisialisasi.
+        /// </summary>
+        void InitializeState();
+
+        /// <summary>
+        /// Method yang dipanggil ketika masuk state.
+        /// </summary>
+        void EnterState();
+
+        /// <summary>
+        /// Method yang dipanggil ketika keluar state.
+        /// </summary>
+        void ExitState();
     }
 }

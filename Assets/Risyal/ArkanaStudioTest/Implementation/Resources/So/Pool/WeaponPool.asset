@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1eb3db869da2a4b9da0f0350e12b8b, type: 3}
+  m_Name: WeaponPool
+  m_EditorClassIdentifier: 
+  <Pool>k__BackingField:
+  - id: AlleyHunter
+    name: Alley Hunter
+    template: {fileID: 11400000, guid: d47af712dad542d4c89cb8ada7e2b3e4, type: 2}
+  - id: FilletBlade
+    name: Fillet Blade
+    template: {fileID: 11400000, guid: 1fe478789a53ff04c899e9beb7b5f526, type: 2}
+  - id: CoolSteel
+    name: Cool Steel
+    template: {fileID: 11400000, guid: f8085d44bc20d9643b03037dfec85ba6, type: 2}
+  - id: TheBlackSword
+    name: The Black Sword
+    template: {fileID: 11400000, guid: d0c29bc5c675c3e4fae89a1f92a8a946, type: 2}
+  - id: FreedomSworn
+    name: FreedomSworn
+    template: {fileID: 11400000, guid: 076333fa441c3444eb2a964902b23031, type: 2}
+  - id: BlackcliffWarbow
+    name: Blackcliff Warbow
+    template: {fileID: 11400000, guid: fbf3c95ff50125d47be241f1f1fc027e, type: 2}
+  - id: CompoundBow
+    name: Compound Bow
+    template: {fileID: 11400000, guid: 2aa8cc8750169af4289cc4a145ccabd6, type: 2}
+  - id: DodocoTales
+    name: Dodoco Tales
+    template: {fileID: 11400000, guid: 3a300690a7fdb5d42895dcd13142313d, type: 2}
+  - id: FavoniusCodex
+    name: Favonius Codex
+    template: {fileID: 11400000, guid: 33be463eb5d1ae240bad6e583a316f34, type: 2}
+  - id: FlowingPurity
+    name: Flowing Purity
+    template: {fileID: 11400000, guid: 047f3bff5fb89f643902751d014a4709, type: 2}

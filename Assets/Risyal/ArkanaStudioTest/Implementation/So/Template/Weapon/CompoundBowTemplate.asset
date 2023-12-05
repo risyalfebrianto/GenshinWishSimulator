@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61112e820778994391c0f19e275301c, type: 3}
+  m_Name: CompoundBowTemplate
+  m_EditorClassIdentifier: 
+  <Rarity>k__BackingField: 1
+  <WeaponType>k__BackingField: 2
+  <BaseAttack>k__BackingField: 41
+  <SpecialEffect>k__BackingField: Normal Attack and Charged Attack hits increase
+    ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once
+    every 0.3s.

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61112e820778994391c0f19e275301c, type: 3}
+  m_Name: FlowingPurityTemplate
+  m_EditorClassIdentifier: 
+  <Rarity>k__BackingField: 1
+  <WeaponType>k__BackingField: 1
+  <BaseAttack>k__BackingField: 43
+  <SpecialEffect>k__BackingField: When using an Elemental Skill, All Elemental DMG
+    Bonus will be increased by 8% for 15s, and a Bond of Life worth 24% of Max HP
+    will be granted. This effect can be triggered once every 10s. When the Bond Of
+    Life is cleared, every 1,000 HP cleared in the process will provide 2% All Elemental
+    DMG Bonus, up to a maximum of 12%. This effect lasts 15s.
