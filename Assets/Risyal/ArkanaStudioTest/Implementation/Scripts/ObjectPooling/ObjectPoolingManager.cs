@@ -1,5 +1,4 @@
 using Assets.Risyal.ArkanaStudioTest.Core.ObjectPooling;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

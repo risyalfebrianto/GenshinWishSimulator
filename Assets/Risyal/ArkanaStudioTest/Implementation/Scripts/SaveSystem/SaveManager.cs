@@ -1,6 +1,5 @@
 ﻿using Assets.Risyal.ArkanaStudioTest.Core.SaveSystem;
 using Cysharp.Threading.Tasks;
-using System.Collections;
 using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.SaveSystem

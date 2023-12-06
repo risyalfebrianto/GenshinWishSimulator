@@ -1,5 +1,4 @@
 ﻿using Assets.Risyal.ArkanaStudioTest.Core.ObjectPooling;
-using System.Collections;
 using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.ObjectPooling

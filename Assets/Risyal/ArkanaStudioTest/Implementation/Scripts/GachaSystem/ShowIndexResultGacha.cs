@@ -1,8 +1,4 @@
-using Assets.Risyal.ArkanaStudioTest.Core.ContainerSystem;
 using Assets.Risyal.ArkanaStudioTest.Core.GachaSystem;
-using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;

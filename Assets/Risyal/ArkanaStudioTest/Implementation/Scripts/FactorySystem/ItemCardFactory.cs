@@ -1,9 +1,6 @@
 using Assets.Risyal.ArkanaStudioTest.Core.FactorySystem;
 using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
-using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.ObjectPooling;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem

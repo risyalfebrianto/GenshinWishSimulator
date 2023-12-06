@@ -1,8 +1,6 @@
-﻿using Assets.Risyal.ArkanaStudioTest.Core.Data;
-using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
+﻿using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
 using Assets.Risyal.ArkanaStudioTest.Core.PoolSystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool;
-using System.Collections;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -53,7 +51,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem
 
         private void Awake()
         {
-            _image = GetComponent<Image>();
+            _image = transform.Find("Image").GetComponent<Image>();
             _countText = GetComponentInChildren<TMP_Text>();
             _itemCard = GetComponent<IItemCard>();
             _characterPool = Resources.Load<CharacterPool>("So/Pool/CharacterPool");

@@ -2,7 +2,6 @@
 using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool;
-using System.Collections;
 using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem

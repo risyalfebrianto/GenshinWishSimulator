@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace Assets.Risyal.ArkanaStudioTest.Core.InventorySystem
 {
     /// <summary>

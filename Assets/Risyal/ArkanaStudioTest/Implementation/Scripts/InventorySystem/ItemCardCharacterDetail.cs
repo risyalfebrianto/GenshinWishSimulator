@@ -2,7 +2,6 @@
 using Assets.Risyal.ArkanaStudioTest.Core.PoolSystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Global;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool;
-using System.Collections;
 using TMPro;
 using UnityEngine;
 

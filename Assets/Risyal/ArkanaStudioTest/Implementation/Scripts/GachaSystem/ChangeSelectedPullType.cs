@@ -1,6 +1,4 @@
 using Assets.Risyal.ArkanaStudioTest.Core.GachaSystem;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;

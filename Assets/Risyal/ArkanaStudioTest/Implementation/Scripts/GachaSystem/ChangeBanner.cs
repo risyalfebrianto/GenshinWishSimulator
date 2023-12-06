@@ -1,9 +1,6 @@
 using Assets.Risyal.ArkanaStudioTest.Core.GachaSystem;
 using Assets.Risyal.ArkanaStudioTest.Core.PoolSystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;

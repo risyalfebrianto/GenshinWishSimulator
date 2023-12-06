@@ -1,7 +1,5 @@
 using Assets.Risyal.ArkanaStudioTest.Core.PoolSystem;
-using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Template;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;

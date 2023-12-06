@@ -5,7 +5,6 @@ using Assets.Risyal.ArkanaStudioTest.Core.SaveSystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem;
 using Cysharp.Threading.Tasks;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

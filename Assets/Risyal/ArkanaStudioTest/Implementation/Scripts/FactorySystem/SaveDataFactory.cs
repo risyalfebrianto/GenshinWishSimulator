@@ -1,9 +1,6 @@
-using Assets.KUMAGEMA.InventoryItem.Implementation.Scripts.SaveSystem;
 using Assets.Risyal.ArkanaStudioTest.Core.FactorySystem;
 using Assets.Risyal.ArkanaStudioTest.Core.SaveSystem;
 using Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.SaveSystem;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem
