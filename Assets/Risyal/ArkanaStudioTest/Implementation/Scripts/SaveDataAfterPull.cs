@@ -69,10 +69,13 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts
         /// <summary>
         /// Untuk save data.
         /// </summary>
+        /// <param name="pullType">
+        /// Tipe pull yang dilakukan.
+        /// </param>
         /// <param name="amount">
         /// Banyaknya item yang di pull pada gacha.
         /// </param>
-        private async void DoSaveData(int amount)
+        private async void DoSaveData(Pulltype pullType, int amount)
         {
             await _inventorySaveData.Save(_inventory);
             await _pullHistorySaveData.Save(_pullHistory);

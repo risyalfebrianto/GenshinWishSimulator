@@ -26,7 +26,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Core.GachaSystem
         /// <summary>
         /// Event yang dipanggil ketika pull telah selesai.
         /// </summary>
-        Action<int> OnPullFinished { get; set; }
+        Action<Pulltype, int> OnPullFinished { get; set; }
     }
 
     /// <summary>

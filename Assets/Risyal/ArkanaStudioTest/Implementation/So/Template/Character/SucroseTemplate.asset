@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3930c2c752c911f43aef52f71079a257, type: 3}
-  m_Name: KaeyaTemplate
+  m_Name: SucroseTemplate
   m_EditorClassIdentifier: 
   <Rarity>k__BackingField: 0
-  <Attack>k__BackingField: 18
-  <Hp>k__BackingField: 975
-  <Defence>k__BackingField: 66
+  <Attack>k__BackingField: 19
+  <Hp>k__BackingField: 802
+  <Defence>k__BackingField: 48

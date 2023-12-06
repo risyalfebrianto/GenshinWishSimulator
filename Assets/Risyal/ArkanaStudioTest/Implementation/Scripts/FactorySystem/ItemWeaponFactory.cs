@@ -32,7 +32,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem
         {
             var data = weaponPool.Get((string)parameters[0]);
 
-            return new Item(data.id, data.name, string.Empty, ItemType.Weapon, 1);
+            return new Item(data.id, data.name, string.Empty, ItemType.Weapon, 0);
         }
 
         #endregion

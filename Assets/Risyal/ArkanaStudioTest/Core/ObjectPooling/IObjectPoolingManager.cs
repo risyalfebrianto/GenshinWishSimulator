@@ -14,6 +14,6 @@ namespace Assets.Risyal.ArkanaStudioTest.Core.ObjectPooling
         /// <returns>
         /// Mengembalikan nilai berupa IPooledObject.
         /// </returns>
-        IPooledObject Get(params object[] parameters);
+        IPooledObject GetFreeItem(params object[] parameters);
     }
 }

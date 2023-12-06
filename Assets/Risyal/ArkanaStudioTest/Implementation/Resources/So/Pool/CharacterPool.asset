@@ -15,16 +15,21 @@ MonoBehaviour:
   <Pool>k__BackingField:
   - id: Barbara
     name: Barbara
+    sprite: {fileID: 21300000, guid: 80ace236d99ca3747a91f10e3511b948, type: 3}
     template: {fileID: 11400000, guid: 0efec3cee3ebf4b43916d54e2eafd56f, type: 2}
   - id: Bennett
     name: Bennett
+    sprite: {fileID: 21300000, guid: a054a79483b32884687ca26b7e7f6ff5, type: 3}
     template: {fileID: 11400000, guid: ff5e540a59f2f654cb33b2edb2120e2d, type: 2}
-  - id: Childe
-    name: Childe
+  - id: Tartaglia
+    name: Tartaglia
+    sprite: {fileID: 21300000, guid: d03bc08bc08ae4f40b84ebb5be3d1e8f, type: 3}
     template: {fileID: 11400000, guid: 6a9188c2deefadb47a320cb6e81d2a82, type: 2}
-  - id: Kaeya
-    name: Kaeya
+  - id: Diluc
+    name: Diluc
+    sprite: {fileID: 21300000, guid: cd9ffba624d1b644d82154fab75d8014, type: 3}
     template: {fileID: 11400000, guid: a790c4fde8f4215469bd0ec8cb3ac60c, type: 2}
-  - id: Lisa
-    name: Lisa
+  - id: Sucrose
+    name: Sucrose
+    sprite: {fileID: 21300000, guid: d3a797fc5e8770e4999cf283f15f6a7a, type: 3}
     template: {fileID: 11400000, guid: 7672ca81f144168419da67932715ab8b, type: 2}

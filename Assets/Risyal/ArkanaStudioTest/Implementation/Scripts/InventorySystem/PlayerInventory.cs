@@ -1,4 +1,5 @@
 using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
+using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem
 
         public int MaxSlot { get; private set; } = 99;
 
+        [ShowInInspector]
         public List<IItem> Items { get; private set; } = new List<IItem>();
 
         public Action<IItem> OnItemAdded { get; set; } = null;
@@ -39,7 +41,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem
                 itemOwned = item;
             }
 
-            itemOwned.Amount++;
+            itemOwned.Amount += amount;
 
             OnItemAdded?.Invoke(itemOwned);
         }

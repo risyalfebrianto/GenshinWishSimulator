@@ -55,9 +55,6 @@ namespace Assets.Risyal.ArkanaStudioTest.Core.ContainerSystem
         /// <summary>
         /// Untuk menambah object ke container.
         /// </summary>
-        /// <param name="id">
-        /// Id dari object yang ditambah.
-        /// </param>
         /// <param name="content">
         /// Content dari container.
         /// </param>

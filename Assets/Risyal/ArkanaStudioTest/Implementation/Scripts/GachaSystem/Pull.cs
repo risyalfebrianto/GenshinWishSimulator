@@ -218,8 +218,6 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.MainGamePlay
 
                     var chance = Random.Range(0, 1f);
 
-                    Debug.Log(chance);
-
                     if (chance <= .006f && Pulltype == Pulltype.Character)
                     {
                         characterData = GetCharacterSuperRare();
@@ -256,7 +254,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.MainGamePlay
 
                     _inventory.AddItem(_itemWeaponFactory.Create(weaponData.id), 1);
 
-                    Debug.Log($"Get Weapon {weaponData.name}, Rarity : {weaponData.template.Rarity}");
+                    // Debug.Log($"GetFreeItem Weapon {weaponData.name}, Rarity : {weaponData.template.Rarity}");
                 }
                 else
                 {
@@ -264,17 +262,17 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.MainGamePlay
 
                     _inventory.AddItem(_itemCharacterFactory.Create(characterData.id), 1);
 
-                    Debug.Log($"Get Character {characterData.name}, Rarity : {characterData.template.Rarity}");
+                    // Debug.Log($"GetFreeItem Character {characterData.name}, Rarity : {characterData.template.Rarity}");
                 }
             }
 
             _pityData.SetRarePity(currentRarePity);
             _pityData.SetSuperRarePity(currentSuperRarePity);
 
-            OnPullFinished?.Invoke(amount);
+            OnPullFinished?.Invoke(Pulltype, amount);
         }
 
-        public Action<int> OnPullFinished { get; set; } = null;
+        public Action<Pulltype, int> OnPullFinished { get; set; } = null;
 
         #endregion
     }

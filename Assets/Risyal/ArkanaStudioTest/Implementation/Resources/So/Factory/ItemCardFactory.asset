@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3930c2c752c911f43aef52f71079a257, type: 3}
-  m_Name: LisaTemplate
+  m_Script: {fileID: 11500000, guid: 287a757d266c051409226fb988115263, type: 3}
+  m_Name: ItemCardFactory
   m_EditorClassIdentifier: 
-  <Rarity>k__BackingField: 0
-  <Attack>k__BackingField: 19
-  <Hp>k__BackingField: 802
-  <Defence>k__BackingField: 48
+  poolingManager: {fileID: 11400000, guid: 0c037bc647840a24ca74bad49ecb3021, type: 2}
+  <Id>k__BackingField: ItemCardFactory

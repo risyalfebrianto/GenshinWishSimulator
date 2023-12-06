@@ -14,11 +14,10 @@ using UnityEngine;
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts
 {
     /// <summary>
-    /// Untuk memuat semua data.
+    /// Untuk memuat gacha data.
     /// </summary>
-    public class LoadAllData : MonoBehaviour
+    public class LoadGachaData : MonoBehaviour
     {
-
         #region Variable
 
         /// <summary>
@@ -37,19 +36,9 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts
         private IListContainer<string> _pullHistory = null;
 
         /// <summary>
-        /// Menangani inventory yang dimiliki oleh player.
-        /// </summary>
-        private IInventory _inventory = null;
-
-        /// <summary>
         /// Data pity yang dimiliki oleh player.
         /// </summary>
         private IPityData _pityData = null;
-
-        /// <summary>
-        /// Save data untuk inventory.
-        /// </summary>
-        private ISaveData _inventorySaveData = null;
 
         /// <summary>
         /// Save data untuk inventory.
@@ -70,14 +59,9 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts
             _saveDataFactory = Resources.Load<SaveDataFactory>("So/Factory/SaveDataFactory");
             _pityData = GetComponent<IPityData>();
             _pullHistory = GetComponent<IListContainer<string>>();
-            _inventory = FindObjectsOfType<MonoBehaviour>().OfType<IInventory>().FirstOrDefault();
 
-            _inventorySaveData = _saveDataFactory.Create("Inventory");
             _pullHistorySaveData = _saveDataFactory.Create("PullHistory", _pullHistory.Id);
             _pitySaveData = _saveDataFactory.Create("Pity", _pityData.Id);
-
-            await _inventorySaveData.Load();
-            _inventorySaveData.Apply(_inventory);
 
             await _pullHistorySaveData.Load();
             _pullHistorySaveData.Apply(_pullHistory);

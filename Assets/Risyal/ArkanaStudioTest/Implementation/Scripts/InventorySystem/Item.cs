@@ -1,5 +1,6 @@
 using Assets.Risyal.ArkanaStudioTest.Core.InventorySystem;
 using System;
+using UnityEngine;
 
 namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem
 {
@@ -42,14 +43,19 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.InventorySystem
 
         #region IItem
 
+        [field: SerializeField]
         public string Id { get; private set; } = string.Empty;
 
+        [field: SerializeField]
         public string Name { get; private set; } = string.Empty;
 
+        [field: SerializeField]
         public string Description { get; private set; } = string.Empty;
 
+        [field: SerializeField]
         public ItemType ItemType { get; private set; } = default;
 
+        [field: SerializeField]
         public int Amount { get; set; } = 0;
 
         #endregion

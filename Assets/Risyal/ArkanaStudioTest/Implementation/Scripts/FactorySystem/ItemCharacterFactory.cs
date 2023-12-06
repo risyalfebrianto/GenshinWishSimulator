@@ -31,7 +31,7 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.FactorySystem
         {
             var data = characterPool.Get((string)parameters[0]);
 
-            return new Item(data.id, data.name, string.Empty, ItemType.Character, 1);
+            return new Item(data.id, data.name, string.Empty, ItemType.Character, 0);
         }
 
         #endregion
