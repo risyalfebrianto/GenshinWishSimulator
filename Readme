@@ -1,0 +1,7 @@
+Source code dari tes Arkana Games, membuat game simulasi wish seperti Genshin Impact.
+
+Plugin yang digunakan antara lain :
+1. Odin Inspector (https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)
+2. ES3 Easy Save (https://assetstore.unity.com/packages/tools/utilities/easy-save-the-complete-save-data-serializer-system-768)
+3. NewtonSoft JSON (https://github.com/applejag/Newtonsoft.Json-for-Unity)
+4. UniTask (https://github.com/Cysharp/UniTask)
