@@ -1,4 +1,5 @@
 using Assets.Risyal.ArkanaStudioTest.Core.GachaSystem;
+using Cysharp.Threading.Tasks;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -40,11 +41,17 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.GachaSystem
         /// <summary>
         /// Untuk melakukan pull.
         /// </summary>
-        private void DoPull()
+        private async void DoPull()
         {
+            _button.enabled = false;
+
             var pull = _pulls.FirstOrDefault(x => x.Pulltype == _pulltype.CurrentPullType);
 
             pull.DoPull(pullAmount);
+
+            await UniTask.Delay(1000);
+
+            _button.enabled = true;
         }
 
         #endregion

@@ -20,6 +20,8 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.Pool
 
         public CharacterData Get(string id)
         {
+            Debug.Log(id);
+
             return Pool.First(x => x.id == id);
         }
 

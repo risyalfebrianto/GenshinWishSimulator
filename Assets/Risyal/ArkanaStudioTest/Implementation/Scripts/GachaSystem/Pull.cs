@@ -175,28 +175,22 @@ namespace Assets.Risyal.ArkanaStudioTest.Implementation.Scripts.MainGamePlay
                 currentSuperRarePity--;
                 currentRarePity--;
 
-                if (currentSuperRarePity == _pityData.DefaultSuperRarePity / 2)
+                if (currentSuperRarePity == _pityData.DefaultSuperRarePity / 2 && Random.Range(0, 3) == 0)
                 {
-                    var random = Random.Range(0, 2);
-                    var get = random == 0;
-
-                    if (get)
+                    if (Pulltype == Pulltype.Character)
                     {
-                        if (Pulltype == Pulltype.Character)
-                        {
-                            characterData = GetCharacterSuperRare();
-                        }
-                        else
-                        {
-                            weaponData = GetWeaponSuperRare();
-
-                            getWeapon = true;
-                        }
-
-                        currentSuperRarePity = _pityData.DefaultSuperRarePity;
+                        characterData = GetCharacterSuperRare();
                     }
+                    else
+                    {
+                        weaponData = GetWeaponSuperRare();
+
+                        getWeapon = true;
+                    }
+
+                    currentSuperRarePity = _pityData.DefaultSuperRarePity;
                 }
-                if (currentSuperRarePity <= 0)
+                else if (currentSuperRarePity <= 0)
                 {
                     if (Pulltype == Pulltype.Character)
                     {
